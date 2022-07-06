@@ -227,11 +227,14 @@ body {
 
 .footer-area {
     background-color: #17252A;
+
 }
 
 .footer-content {
     text-align: center;
-    color: white;
+    color: white;   
+    margin: 0;
+    padding: 0;
 }
 .footer-content h2 {
     font-family: papyrus;
