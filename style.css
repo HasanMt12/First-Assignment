@@ -82,63 +82,58 @@ body {
 
 #amount-box {
     background-color: rgb(218, 177, 184);
-    color:rgb(97, 32, 43) ;
-    
+    color:rgb(97, 32, 43) ;    
 }
 
 .other-donate-area {
     text-align: center;
-
 }
 
 #input-ammount {
     text-align: center;
     position: relative;
-
-
     color: #DEF2F1;
     border: none;
     border-bottom: 1px solid black;
-
 }
-/* Donate Section End */
+/*    Donate Section End    */
 
-/* Donate plan Section start */
+/*  Donate plan Section start */
+
 .donate-plan-container {
     padding: 50px;
     display: flex;
     justify-content: center;
 }
 
-.donate-plan-card{
+.donate-plan-card {
     width: 300px;
     height: 310px;
     margin-left: 20px;
     border: 1px solid gray;
-
     box-shadow: 5px 5px 5px gray;
     margin-top: 15px;
     padding: 20px;
     text-align: justify;
-
     border-radius: 5px;
 }
 
 
-#donate-plan-card1{
+#donate-plan-card1 {
     background-color: #3AAFA9;
 }
 
-#donate-plan-card2{
+#donate-plan-card2 {
     background-color: #DEF2F1;
 }
 
-#donate-plan-card3{
+#donate-plan-card3 {
     background-color: rgb(149, 197, 181);
 }
-/* Donate plan Section end */
+/*   Donate plan Section end   */
 
-/* bonus-section-start */
+/*     bonus-section-start    */ 
+
 .bonus-header {
     text-align: center;
     border: 1px solid gray;
@@ -163,7 +158,7 @@ body {
     border-radius: 5px;
 }
 
-.Event-date{
+.Event-date {
     text-align: right;
     box-sizing: border-box;
     border: 1px solid rgb(218, 177, 184);
@@ -171,18 +166,19 @@ body {
     padding: 6px 6px 6px 6px;
     border-radius: 4px;
     background-color: rgb(218, 177, 184);
+    color: #2B7A78;
 }
 
-.bonus-section-btn{
+.bonus-section-btn {
     padding-top: 10px;
 }
-.bonus-last-button{
+.bonus-last-button {
     text-align: center;
     margin: 5px 0;
 }
 
-/* bonus-section-end */
-/* Email-section-start */
+  /*   bonus-section-end   */
+  /*  Email-section-start  */
 .subcription-area {
     width: 500;
     height: 150;
@@ -224,4 +220,24 @@ body {
     background: rgb(218, 177, 184);
 
 }
-/* Email-section-End */
+
+/*    Email-section-End   */
+
+/*    footer-section-Start   */
+
+.footer-area {
+    background-color: #17252A;
+}
+
+.footer-content {
+    text-align: center;
+    color: white;
+}
+.footer-content h2 {
+    font-family: papyrus;
+}
+.footer-style {
+    color:rgb(218, 177, 184) ;
+}
+
+/*    footer-section-End   */
