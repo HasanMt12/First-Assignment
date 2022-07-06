@@ -3,18 +3,18 @@ body {
     margin: 0;
     padding: 0;
     background: #2B7A78;
-
 }
+
 /* Hero Section Start */
-.first-container {
+.hero-container {
     background: url(images/donation13.jpg) no-repeat center fixed;
     background-size: cover;
     position: absolute;
     width: 100%;
-    height: 550px;
+    height: 650px;
 }
 
-.content-section {
+.hero-content-section {
     text-align: center;
 }
 
@@ -34,7 +34,7 @@ body {
     cursor: pointer;
 }
 
-.content-section h1 {
+.hero-content-section h1 {
     width: 100%;
     margin-top: 200px;
     color: #2B7A78;
@@ -42,9 +42,96 @@ body {
     font-size: 60px;
 }
 
-.content-section p {
+.hero-content-section p {
     color: white;
     padding: 24px;
     font-size: 25px;
     font-weight: 500%;
+} 
+
+/* Hero Section end */
+
+/* Donate section start */
+
+.donate-section {
+    margin-top: 650px;
 }
+
+.donate-content {
+    text-align: center;
+    color: black;
+    font-size: large;
+}
+
+.flexible-container {
+    display: flex;
+    justify-content: center;
+}
+
+.donate-amount {
+    text-align: center;
+    margin-left: 15px;
+    color: black;
+    width: 100px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #DEF2F1;
+    box-shadow: 2px 2px 2px grey;
+    cursor: pointer;
+}
+
+#amount-box {
+    background-color: rgb(218, 177, 184);
+}
+
+.other-donate-area {
+    text-align: center;
+
+}
+
+#input-ammount {
+    text-align: center;
+    position: relative;
+
+
+    color: #DEF2F1;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+/* Donate Section End */
+
+/* Donate plan Section start */
+.donate-plan-container {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    width: 300px;
+    height: 310px;
+    margin-left: 20px;
+    border: 1px solid gray;
+
+    box-shadow: 5px 5px 5px gray;
+    margin-top: 15px;
+    padding: 20px;
+    text-align: justify;
+
+    border-radius: 5px;
+}
+
+
+#card1-1 {
+    background-color: #3AAFA9;
+}
+
+#card1-2 {
+    background-color: #DEF2F1;
+}
+
+#card1-3 {
+    background-color: rgb(149, 197, 181);
+}
+/* Donate plan Section end */
